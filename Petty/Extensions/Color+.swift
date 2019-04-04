@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIColor {
-    class func FrenchBlue() -> UIColor {
+    class func frenchBlue() -> UIColor {
         return UIColor(red: 0.0 / 255.0, green: 109.0 / 255.0, blue: 188.0 / 255.0, alpha: 1.0)
     }
 }

@@ -12,11 +12,12 @@
 		72572B5E225355E30049A238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5C225355E30049A238 /* Main.storyboard */; };
 		72572B60225355E50049A238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5F225355E50049A238 /* Assets.xcassets */; };
 		72572B63225355E50049A238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B61225355E50049A238 /* LaunchScreen.storyboard */; };
-		72572B6E225355E50049A238 /* PettyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72572B6D225355E50049A238 /* PettyTests.swift */; };
-		72572B79225355E50049A238 /* PettyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72572B78225355E50049A238 /* PettyUITests.swift */; };
 		729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F510E2254B02000907BF8 /* LoginViewController.swift */; };
 		729F51172255966D00907BF8 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */; };
 		729F511E22559AC600907BF8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F511D22559AC600907BF8 /* RegisterViewController.swift */; };
+		729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51292255DA1500907BF8 /* CustomButton.swift */; };
+		729F512C2255DB7900907BF8 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* Color+.swift */; };
+		729F512E2255FF3700907BF8 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512D2255FF3700907BF8 /* FontExtension.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
 		F8CAA55ADE497C275EDF6BD8 /* Pods_PettyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */; };
@@ -51,14 +52,13 @@
 		72572B62225355E50049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72572B64225355E50049A238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72572B69225355E50049A238 /* PettyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PettyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72572B6D225355E50049A238 /* PettyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettyTests.swift; sourceTree = "<group>"; };
-		72572B6F225355E50049A238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72572B74225355E50049A238 /* PettyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PettyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72572B78225355E50049A238 /* PettyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PettyUITests.swift; sourceTree = "<group>"; };
-		72572B7A225355E50049A238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729F510E2254B02000907BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		729F511D22559AC600907BF8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		729F51292255DA1500907BF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		729F512B2255DB7900907BF8 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		729F512D2255FF3700907BF8 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.debug.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				72572B57225355E30049A238 /* Petty */,
-				72572B6C225355E50049A238 /* PettyTests */,
-				72572B77225355E50049A238 /* PettyUITests */,
 				72572B56225355E30049A238 /* Products */,
 				AD58636DAAE536A7C4A23138 /* Pods */,
 				9C09DC0DB3BBCD03512A5F62 /* Frameworks */,
@@ -131,24 +129,6 @@
 				72572B64225355E50049A238 /* Info.plist */,
 			);
 			path = Petty;
-			sourceTree = "<group>";
-		};
-		72572B6C225355E50049A238 /* PettyTests */ = {
-			isa = PBXGroup;
-			children = (
-				72572B6D225355E50049A238 /* PettyTests.swift */,
-				72572B6F225355E50049A238 /* Info.plist */,
-			);
-			path = PettyTests;
-			sourceTree = "<group>";
-		};
-		72572B77225355E50049A238 /* PettyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				72572B78225355E50049A238 /* PettyUITests.swift */,
-				72572B7A225355E50049A238 /* Info.plist */,
-			);
-			path = PettyUITests;
 			sourceTree = "<group>";
 		};
 		729F510D2254AF9B00907BF8 /* LoginViewController */ = {
@@ -203,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */,
+				729F512B2255DB7900907BF8 /* Color+.swift */,
+				729F512D2255FF3700907BF8 /* FontExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +192,7 @@
 		729F51182255967C00907BF8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				729F51282255DA0200907BF8 /* Common */,
 				729F511C22559A8B00907BF8 /* RegisterViewController */,
 				729F510D2254AF9B00907BF8 /* LoginViewController */,
 				72572B5C225355E30049A238 /* Main.storyboard */,
@@ -245,6 +228,14 @@
 				729F511D22559AC600907BF8 /* RegisterViewController.swift */,
 			);
 			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		729F51282255DA0200907BF8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				729F51292255DA1500907BF8 /* CustomButton.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		72BE7F17225377E800D5B3AC /* Helps */ = {
@@ -291,6 +282,7 @@
 				72572B53225355E30049A238 /* Resources */,
 				8206DFB2B66F2B39B048D651 /* [CP] Embed Pods Frameworks */,
 				5F9189F4783D6C968378DA54 /* [CP] Copy Pods Resources */,
+				729F51272255D91700907BF8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -354,11 +346,9 @@
 					};
 					72572B68225355E50049A238 = {
 						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 72572B54225355E30049A238;
 					};
 					72572B73225355E50049A238 = {
 						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 72572B54225355E30049A238;
 					};
 				};
 			};
@@ -471,6 +461,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Petty/Pods-Petty-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		729F51272255D91700907BF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		8206DFB2B66F2B39B048D651 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,9 +580,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
+				729F512C2255DB7900907BF8 /* Color+.swift in Sources */,
+				729F512E2255FF3700907BF8 /* FontExtension.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewControllerExtensions.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
 				729F511E22559AC600907BF8 /* RegisterViewController.swift in Sources */,
+				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +593,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72572B6E225355E50049A238 /* PettyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +600,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72572B79225355E50049A238 /* PettyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,7 +797,6 @@
 			baseConfigurationReference = D69D2900C09BB09A269F94C1 /* Pods-PettyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB4Z3CB3J8;
 				INFOPLIST_FILE = PettyTests/Info.plist;
@@ -802,7 +809,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petty.app/Petty";
 			};
 			name = Debug;
 		};
@@ -811,7 +817,6 @@
 			baseConfigurationReference = 61919D39D2BAA87FF3B5320E /* Pods-PettyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YB4Z3CB3J8;
 				INFOPLIST_FILE = PettyTests/Info.plist;
@@ -824,7 +829,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petty.app/Petty";
 			};
 			name = Release;
 		};
@@ -843,9 +847,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Petty;
 			};
 			name = Debug;
 		};
@@ -864,9 +868,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Petty;
 			};
 			name = Release;
 		};
