@@ -1,5 +1,5 @@
 //
-//  Color+.swift
+//  ColorExtension.swift
 //  Petty
 //
 //  Created by chuongmd on 4/4/19.

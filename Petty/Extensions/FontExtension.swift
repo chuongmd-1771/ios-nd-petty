@@ -9,7 +9,5 @@
 import UIKit
 
 extension UIFont {
-    class func helveticaFont() -> UIFont {
-        return UIFont(name: "Helvetica", size: 18)!
-    }
+    static let helvetica = UIFont(name: "Helvetica", size: 18)
 }

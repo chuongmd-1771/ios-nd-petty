@@ -14,9 +14,8 @@
 		72572B63225355E50049A238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B61225355E50049A238 /* LaunchScreen.storyboard */; };
 		729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F510E2254B02000907BF8 /* LoginViewController.swift */; };
 		729F51172255966D00907BF8 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */; };
-		729F511E22559AC600907BF8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F511D22559AC600907BF8 /* RegisterViewController.swift */; };
 		729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51292255DA1500907BF8 /* CustomButton.swift */; };
-		729F512C2255DB7900907BF8 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* Color+.swift */; };
+		729F512C2255DB7900907BF8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* ColorExtension.swift */; };
 		729F512E2255FF3700907BF8 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512D2255FF3700907BF8 /* FontExtension.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
@@ -55,9 +54,8 @@
 		72572B74225355E50049A238 /* PettyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PettyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F510E2254B02000907BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
-		729F511D22559AC600907BF8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		729F51292255DA1500907BF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		729F512B2255DB7900907BF8 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		729F512B2255DB7900907BF8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		729F512D2255FF3700907BF8 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				729F51162255966D00907BF8 /* UIViewControllerExtensions.swift */,
-				729F512B2255DB7900907BF8 /* Color+.swift */,
+				729F512B2255DB7900907BF8 /* ColorExtension.swift */,
 				729F512D2255FF3700907BF8 /* FontExtension.swift */,
 			);
 			path = Extensions;
@@ -193,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				729F51282255DA0200907BF8 /* Common */,
-				729F511C22559A8B00907BF8 /* RegisterViewController */,
 				729F510D2254AF9B00907BF8 /* LoginViewController */,
 				72572B5C225355E30049A238 /* Main.storyboard */,
 				72572B61225355E50049A238 /* LaunchScreen.storyboard */,
@@ -220,14 +217,6 @@
 			children = (
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		729F511C22559A8B00907BF8 /* RegisterViewController */ = {
-			isa = PBXGroup;
-			children = (
-				729F511D22559AC600907BF8 /* RegisterViewController.swift */,
-			);
-			path = RegisterViewController;
 			sourceTree = "<group>";
 		};
 		729F51282255DA0200907BF8 /* Common */ = {
@@ -580,11 +569,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
-				729F512C2255DB7900907BF8 /* Color+.swift in Sources */,
+				729F512C2255DB7900907BF8 /* ColorExtension.swift in Sources */,
 				729F512E2255FF3700907BF8 /* FontExtension.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewControllerExtensions.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
-				729F511E22559AC600907BF8 /* RegisterViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

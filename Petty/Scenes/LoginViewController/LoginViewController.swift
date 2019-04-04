@@ -23,20 +23,18 @@ final class LoginViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: false)
+        navigationController?.isNavigationBarHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: false)
+        navigationController?.isNavigationBarHidden = true
     }
     
-    @IBAction private func loginPressed(_ sender: Any) {
+    @IBAction func loginPressed(_ sender: Any) {
+    }
+    @IBAction func registerPressed(_ sender: Any) {
     }
     
-    @IBAction private func registerPressed(_ sender: Any) {
-    }
     
-    fileprivate func setupUI() {
-    }
 }
