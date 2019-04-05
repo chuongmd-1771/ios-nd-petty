@@ -9,9 +9,9 @@
 import UIKit
 
 final class PetDetailViewController: UIViewController {
-    @IBOutlet weak var petImageView: UIView!
-    @IBOutlet weak var petDetailView: UIView!
-    @IBOutlet weak var likeNumberLabel: UILabel!
+    @IBOutlet private weak var petImageView: UIView!
+    @IBOutlet private weak var petDetailView: UIView!
+    @IBOutlet private weak var likeNumberLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
