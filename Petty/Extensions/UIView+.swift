@@ -22,7 +22,7 @@ extension UIView {
         layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
 
-    func clipsToBounds(color: UIColor, cornerRadius: CGFloat, shadowRadius: CGFloat, clipsToBounds: Bool) {
+    func roundCorner(color: UIColor, cornerRadius: CGFloat, shadowRadius: CGFloat, clipsToBounds: Bool) {
         self.clipsToBounds = true
         backgroundColor = color
         layer.cornerRadius = cornerRadius

@@ -1,5 +1,5 @@
 //
-//  CustomView.swift
+//  CustomPetDetailView.swift
 //  Petty
 //
 //  Created by chuongmd on 4/5/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CustomView: UIView {
+final class CustomPetDetailView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -21,7 +21,7 @@ final class CustomView: UIView {
     }
     
     private func setupView() {
-        clipsToBounds(color: .lightGray, cornerRadius: 50, shadowRadius: 2, clipsToBounds: true)
+        roundCorner(color: .lightGray, cornerRadius: 50, shadowRadius: 2, clipsToBounds: true)
         dropShadow(color: .lightGray, opacity: 1, offSet: CGSize(width: 1, height: 1), radius: 20, scale: true)
     }
 }
