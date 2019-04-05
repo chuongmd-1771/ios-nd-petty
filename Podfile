@@ -6,17 +6,17 @@ target 'Petty' do
   use_frameworks!
 
   # Pods for Petty
-pod 'FirebaseUI'
+pod 'Firebase'
+pod 'Firebase/Auth'
 pod 'Firebase/Core'
 pod 'Firebase/Firestore'
-  target 'PettyTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'PettyUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+pod 'SVProgressHUD'
+pod 'ChameleonFramework'
 
 end
+  post_install do |installer|
+    installer.pods_project.build_configuration_list.build_configurations.each do |configuration|
+      configuration.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+      inhibit_all_warnings!
+    end
+  end
