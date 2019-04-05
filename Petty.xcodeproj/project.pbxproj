@@ -17,6 +17,7 @@
 		729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51292255DA1500907BF8 /* CustomButton.swift */; };
 		729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* UIColor+.swift */; };
 		729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512D2255FF3700907BF8 /* UIFont+.swift */; };
+		729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51302256F4C600907BF8 /* HomeViewController.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
 		F8CAA55ADE497C275EDF6BD8 /* Pods_PettyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */; };
@@ -57,6 +58,7 @@
 		729F51292255DA1500907BF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		729F512B2255DB7900907BF8 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		729F512D2255FF3700907BF8 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		729F51302256F4C600907BF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.debug.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,12 +131,12 @@
 			path = Petty;
 			sourceTree = "<group>";
 		};
-		729F510D2254AF9B00907BF8 /* LoginViewController */ = {
+		729F510D2254AF9B00907BF8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				729F510E2254B02000907BF8 /* LoginViewController.swift */,
 			);
-			path = LoginViewController;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		729F5110225595FE00907BF8 /* Application */ = {
@@ -191,7 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				729F51282255DA0200907BF8 /* Common */,
-				729F510D2254AF9B00907BF8 /* LoginViewController */,
+				729F512F2256F4A500907BF8 /* Home */,
+				729F510D2254AF9B00907BF8 /* Login */,
 				72572B5C225355E30049A238 /* Main.storyboard */,
 				72572B61225355E50049A238 /* LaunchScreen.storyboard */,
 			);
@@ -225,6 +228,14 @@
 				729F51292255DA1500907BF8 /* CustomButton.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		729F512F2256F4A500907BF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				729F51302256F4C600907BF8 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		72BE7F17225377E800D5B3AC /* Helps */ = {
@@ -524,6 +535,7 @@
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
+				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
