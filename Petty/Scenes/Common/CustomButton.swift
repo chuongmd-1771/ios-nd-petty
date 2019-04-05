@@ -21,7 +21,7 @@ final class CustomButton: UIButton {
     
     func setupButton() {
         setTitleColor(.white, for: .normal)
-        backgroundColor = .frenchBlue()
+        backgroundColor = UIColor.frenchBlue
         titleLabel?.font = UIFont.helvetica
         layer.cornerRadius = 16.5
     }
