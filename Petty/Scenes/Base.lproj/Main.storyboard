@@ -394,6 +394,9 @@
                                                             <constraint firstAttribute="width" constant="90" id="Xos-90-WTE"/>
                                                         </constraints>
                                                         <state key="normal" title="Follow"/>
+                                                        <connections>
+                                                            <action selector="handleFollowButton:" destination="cle-gW-fKA" eventType="touchUpInside" id="I3W-1d-FlE"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Newyork" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCt-or-BFm">
                                                         <rect key="frame" x="82.5" y="32.5" width="142.5" height="22.5"/>
@@ -437,7 +440,7 @@
                                                 </constraints>
                                                 <state key="normal" image="heart"/>
                                                 <connections>
-                                                    <action selector="likePressed:" destination="cle-gW-fKA" eventType="touchUpInside" id="G7q-2r-FRW"/>
+                                                    <action selector="handleLikeButton:" destination="cle-gW-fKA" eventType="touchUpInside" id="E3P-UL-hkz"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbn-jQ-3dE">

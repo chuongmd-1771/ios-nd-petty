@@ -18,7 +18,10 @@ final class PetDetailViewController: UIViewController {
         setupUI()
     }
     
-    @IBAction func likePressed(_ sender: Any) {
+    @IBAction func handleLikeButton(_ sender: Any) {
+    }
+    
+    @IBAction func handleFollowButton(_ sender: Any) {
     }
     
     fileprivate func setupUI() {

@@ -21,22 +21,7 @@ final class CustomView: UIView {
     }
     
     private func setupView() {
-        clipsToBounds = true
-        backgroundColor = .white
-        layer.cornerRadius = 50
-        layer.shadowRadius = 2
+        clipsToBounds(color: .lightGray, cornerRadius: 50, shadowRadius: 2, clipsToBounds: true)
         dropShadow(color: .lightGray, opacity: 1, offSet: CGSize(width: 1, height: 1), radius: 20, scale: true)
-    }
-    
-    private func dropShadow(color: UIColor, opacity: Float = 0.5, offSet: CGSize, radius: CGFloat = 1, scale: Bool = true) {
-        layer.masksToBounds = false
-        layer.shadowColor = color.cgColor
-        layer.shadowOpacity = opacity
-        layer.shadowOffset = offSet
-        layer.shadowRadius = radius
-        
-        layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
-        layer.shouldRasterize = true
-        layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
 }
