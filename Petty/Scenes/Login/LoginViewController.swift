@@ -8,9 +8,10 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 final class LoginViewController: UIViewController {
-
+    
     @IBOutlet private weak var emailTextField: UITextField!
     @IBOutlet private weak var passTextField: UITextField!
     @IBOutlet private weak var loginButton: CustomButton!
@@ -27,9 +28,29 @@ final class LoginViewController: UIViewController {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
+        SVProgressHUD.show()
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passTextField.text!) { [weak self] (user, error) in
+            if error != nil {
+                print(error?.localizedDescription as Any)
+            } else {
+                DispatchQueue.global(qos: .default).async {
+                    DispatchQueue.main.async {
+                        SVProgressHUD.dismiss()
+                    }
+                }
+                self?.performSegue(withIdentifier: "gotoHome", sender: self)
+            }
+        }
     }
     
     @IBAction func registerPressed(_ sender: Any) {
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passTextField.text!) { [weak self] (user, error) in
+            guard self != nil else { return } 
+            if error != nil {
+                print(error?.localizedDescription as Any)
+            } else {
+                AlertView.showAlert(view: self!, message: Alert.registerMessage, alertTitle: Alert.registerAlertTitle, actionTitle: Alert.registerActionTitle)
+            }
+        }
     }
-    
 }

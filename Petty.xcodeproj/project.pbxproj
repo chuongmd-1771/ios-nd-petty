@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6BC76CA470DFF2509AC5C710 /* Pods_PettyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB0A3F7138E76F858A273C7 /* Pods_PettyTests.framework */; };
 		724C7C80225AE34500EA0A61 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C7C7F225AE34500EA0A61 /* UserDetailViewController.swift */; };
+		724C7C82225AFAF800EA0A61 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C7C81225AFAF800EA0A61 /* AlertView.swift */; };
+		724C7C84225AFDC000EA0A61 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C7C83225AFDC000EA0A61 /* Constant.swift */; };
 		72572B59225355E30049A238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72572B58225355E30049A238 /* AppDelegate.swift */; };
 		72572B5E225355E30049A238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5C225355E30049A238 /* Main.storyboard */; };
 		72572B60225355E50049A238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5F225355E50049A238 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		24CBC12FEDC7F37A3B8C581C /* Pods-Petty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.release.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.release.xcconfig"; sourceTree = "<group>"; };
 		61919D39D2BAA87FF3B5320E /* Pods-PettyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PettyTests.release.xcconfig"; path = "Target Support Files/Pods-PettyTests/Pods-PettyTests.release.xcconfig"; sourceTree = "<group>"; };
 		724C7C7F225AE34500EA0A61 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		724C7C81225AFAF800EA0A61 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		724C7C83225AFDC000EA0A61 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		72572B55225355E30049A238 /* Petty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72572B58225355E30049A238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72572B5D225355E30049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -245,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				729F51292255DA1500907BF8 /* CustomButton.swift */,
+				724C7C81225AFAF800EA0A61 /* AlertView.swift */,
+				724C7C83225AFDC000EA0A61 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -563,9 +569,11 @@
 				724C7C80225AE34500EA0A61 /* UserDetailViewController.swift in Sources */,
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
 				729F51342256FF7900907BF8 /* PetDetailViewController.swift in Sources */,
+				724C7C82225AFAF800EA0A61 /* AlertView.swift in Sources */,
 				729F514022574AB000907BF8 /* UIView+.swift in Sources */,
 				729F514222574BB000907BF8 /* CustomPetDetailView.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
+				724C7C84225AFDC000EA0A61 /* Constant.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
 				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,

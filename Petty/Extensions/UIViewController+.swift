@@ -6,7 +6,9 @@
 //  Copyright © 2019 Sun-Asterisk. All rights reserved.
 //
 
+import Foundation
 import UIKit
+
 
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
@@ -19,4 +21,5 @@ extension UIViewController {
     func dismissKeyboard() {
         view.endEditing(true)
     }
+    
 }
