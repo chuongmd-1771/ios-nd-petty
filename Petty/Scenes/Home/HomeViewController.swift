@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import Reusable
 
-final class HomeViewController: UIViewController {
-
+final class HomeViewController: UIViewController, StoryboardSceneBased {
+    static let sceneStoryboard = Storyboard.mainStoryBoard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

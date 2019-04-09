@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BC76CA470DFF2509AC5C710 /* Pods_PettyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB0A3F7138E76F858A273C7 /* Pods_PettyTests.framework */; };
 		72572B59225355E30049A238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72572B58225355E30049A238 /* AppDelegate.swift */; };
 		72572B5E225355E30049A238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5C225355E30049A238 /* Main.storyboard */; };
 		72572B60225355E50049A238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5F225355E50049A238 /* Assets.xcassets */; };
@@ -22,40 +21,21 @@
 		729F514022574AB000907BF8 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F513F22574AB000907BF8 /* UIView+.swift */; };
 		729F514222574BB000907BF8 /* CustomPetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F514122574BB000907BF8 /* CustomPetDetailView.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
+		72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BB9225C7DAF0027DAC2 /* Constant.swift */; };
+		72EA1BBC225C7F5D0027DAC2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */; };
+		72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
-		F8CAA55ADE497C275EDF6BD8 /* Pods_PettyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		72572B6A225355E50049A238 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72572B4D225355E30049A238 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72572B54225355E30049A238;
-			remoteInfo = Petty;
-		};
-		72572B75225355E50049A238 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72572B4D225355E30049A238 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72572B54225355E30049A238;
-			remoteInfo = Petty;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1279A104E1444881ED6499B6 /* Pods_Petty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		177418F0176A76BA5A75E99D /* Pods-PettyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PettyUITests.release.xcconfig"; path = "Target Support Files/Pods-PettyUITests/Pods-PettyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		24CBC12FEDC7F37A3B8C581C /* Pods-Petty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.release.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.release.xcconfig"; sourceTree = "<group>"; };
-		61919D39D2BAA87FF3B5320E /* Pods-PettyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PettyTests.release.xcconfig"; path = "Target Support Files/Pods-PettyTests/Pods-PettyTests.release.xcconfig"; sourceTree = "<group>"; };
 		72572B55225355E30049A238 /* Petty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72572B58225355E30049A238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72572B5D225355E30049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72572B5F225355E50049A238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72572B62225355E50049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72572B64225355E50049A238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72572B69225355E50049A238 /* PettyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PettyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72572B74225355E50049A238 /* PettyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PettyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F510E2254B02000907BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		729F51162255966D00907BF8 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		729F51292255DA1500907BF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -66,11 +46,12 @@
 		729F513F22574AB000907BF8 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		729F514122574BB000907BF8 /* CustomPetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPetDetailView.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72EA1BB9225C7DAF0027DAC2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthorizable.swift; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.debug.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB0A3F7138E76F858A273C7 /* Pods_PettyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4B865985CA07373256718F7 /* Pods-PettyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PettyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PettyUITests/Pods-PettyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D69D2900C09BB09A269F94C1 /* Pods-PettyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PettyTests.debug.xcconfig"; path = "Target Support Files/Pods-PettyTests/Pods-PettyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,22 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72572B66225355E50049A238 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BC76CA470DFF2509AC5C710 /* Pods_PettyTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72572B71225355E50049A238 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8CAA55ADE497C275EDF6BD8 /* Pods_PettyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				72572B55225355E30049A238 /* Petty.app */,
-				72572B69225355E50049A238 /* PettyTests.xctest */,
-				72572B74225355E50049A238 /* PettyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,7 +119,7 @@
 		729F51112255961300907BF8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				729F51132255962D00907BF8 /* Source */,
+				729F511B2255975800907BF8 /* Firebase */,
 				729F51122255962700907BF8 /* Model */,
 			);
 			path = Data;
@@ -167,22 +130,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		729F51132255962D00907BF8 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				729F51142255963300907BF8 /* Remote */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		729F51142255963300907BF8 /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-				729F511B2255975800907BF8 /* Service */,
-			);
-			path = Remote;
 			sourceTree = "<group>";
 		};
 		729F51152255963F00907BF8 /* Extensions */ = {
@@ -199,12 +146,10 @@
 		729F51182255967C00907BF8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				729F51322256FC2400907BF8 /* Pet Detail */,
+				72EA1BBD225C7FC80027DAC2 /* Storyboard */,
 				729F51282255DA0200907BF8 /* Common */,
 				729F512F2256F4A500907BF8 /* Home */,
 				729F510D2254AF9B00907BF8 /* Login */,
-				72572B5C225355E30049A238 /* Main.storyboard */,
-				72572B61225355E50049A238 /* LaunchScreen.storyboard */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -223,17 +168,19 @@
 			path = Widgets;
 			sourceTree = "<group>";
 		};
-		729F511B2255975800907BF8 /* Service */ = {
+		729F511B2255975800907BF8 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */,
 			);
-			path = Service;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		729F51282255DA0200907BF8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				729F51292255DA1500907BF8 /* CustomButton.swift */,
+				72EA1BB9225C7DAF0027DAC2 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -263,6 +210,16 @@
 			path = Helps;
 			sourceTree = "<group>";
 		};
+		72EA1BBD225C7FC80027DAC2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */,
+				72572B61225355E50049A238 /* LaunchScreen.storyboard */,
+				72572B5C225355E30049A238 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		9C09DC0DB3BBCD03512A5F62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,10 +235,6 @@
 			children = (
 				B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */,
 				24CBC12FEDC7F37A3B8C581C /* Pods-Petty.release.xcconfig */,
-				D69D2900C09BB09A269F94C1 /* Pods-PettyTests.debug.xcconfig */,
-				61919D39D2BAA87FF3B5320E /* Pods-PettyTests.release.xcconfig */,
-				D4B865985CA07373256718F7 /* Pods-PettyUITests.debug.xcconfig */,
-				177418F0176A76BA5A75E99D /* Pods-PettyUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -309,44 +262,6 @@
 			productReference = 72572B55225355E30049A238 /* Petty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72572B68225355E50049A238 /* PettyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 72572B80225355E50049A238 /* Build configuration list for PBXNativeTarget "PettyTests" */;
-			buildPhases = (
-				3CBC6EF99502178092F5C05F /* [CP] Check Pods Manifest.lock */,
-				72572B65225355E50049A238 /* Sources */,
-				72572B66225355E50049A238 /* Frameworks */,
-				72572B67225355E50049A238 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				72572B6B225355E50049A238 /* PBXTargetDependency */,
-			);
-			name = PettyTests;
-			productName = PettyTests;
-			productReference = 72572B69225355E50049A238 /* PettyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		72572B73225355E50049A238 /* PettyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 72572B83225355E50049A238 /* Build configuration list for PBXNativeTarget "PettyUITests" */;
-			buildPhases = (
-				95B4CFB300BF802CCE46601F /* [CP] Check Pods Manifest.lock */,
-				72572B70225355E50049A238 /* Sources */,
-				72572B71225355E50049A238 /* Frameworks */,
-				72572B72225355E50049A238 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				72572B76225355E50049A238 /* PBXTargetDependency */,
-			);
-			name = PettyUITests;
-			productName = PettyUITests;
-			productReference = 72572B74225355E50049A238 /* PettyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -358,12 +273,6 @@
 				ORGANIZATIONNAME = "Sun-Asterisk";
 				TargetAttributes = {
 					72572B54225355E30049A238 = {
-						CreatedOnToolsVersion = 10.2;
-					};
-					72572B68225355E50049A238 = {
-						CreatedOnToolsVersion = 10.2;
-					};
-					72572B73225355E50049A238 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -382,8 +291,6 @@
 			projectRoot = "";
 			targets = (
 				72572B54225355E30049A238 /* Petty */,
-				72572B68225355E50049A238 /* PettyTests */,
-				72572B73225355E50049A238 /* PettyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,45 +307,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72572B67225355E50049A238 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72572B72225355E50049A238 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CBC6EF99502178092F5C05F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PettyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		729F51272255D91700907BF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,14 +336,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Petty/Pods-Petty-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -480,42 +347,16 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Petty/Pods-Petty-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95B4CFB300BF802CCE46601F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PettyUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A708FF0211B29BB1A30B3CF7 /* [CP] Check Pods Manifest.lock */ = {
@@ -550,9 +391,9 @@
 				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
 				729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */,
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
-				729F51342256FF7900907BF8 /* PetDetailViewController.swift in Sources */,
-				729F514022574AB000907BF8 /* UIView+.swift in Sources */,
-				729F514222574BB000907BF8 /* CustomPetDetailView.swift in Sources */,
+				72EA1BBC225C7F5D0027DAC2 /* Storyboards.swift in Sources */,
+				72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */,
+				72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
 				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
@@ -560,34 +401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72572B65225355E50049A238 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72572B70225355E50049A238 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		72572B6B225355E50049A238 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 72572B54225355E30049A238 /* Petty */;
-			targetProxy = 72572B6A225355E50049A238 /* PBXContainerItemProxy */;
-		};
-		72572B76225355E50049A238 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 72572B54225355E30049A238 /* Petty */;
-			targetProxy = 72572B75225355E50049A238 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		72572B5C225355E30049A238 /* Main.storyboard */ = {
@@ -763,88 +577,6 @@
 			};
 			name = Release;
 		};
-		72572B81225355E50049A238 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D69D2900C09BB09A269F94C1 /* Pods-PettyTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB4Z3CB3J8;
-				INFOPLIST_FILE = PettyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		72572B82225355E50049A238 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61919D39D2BAA87FF3B5320E /* Pods-PettyTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB4Z3CB3J8;
-				INFOPLIST_FILE = PettyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		72572B84225355E50049A238 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B865985CA07373256718F7 /* Pods-PettyUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB4Z3CB3J8;
-				INFOPLIST_FILE = PettyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		72572B85225355E50049A238 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177418F0176A76BA5A75E99D /* Pods-PettyUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YB4Z3CB3J8;
-				INFOPLIST_FILE = PettyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chuongmd.PettyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -862,24 +594,6 @@
 			buildConfigurations = (
 				72572B7E225355E50049A238 /* Debug */,
 				72572B7F225355E50049A238 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		72572B80225355E50049A238 /* Build configuration list for PBXNativeTarget "PettyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				72572B81225355E50049A238 /* Debug */,
-				72572B82225355E50049A238 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		72572B83225355E50049A238 /* Build configuration list for PBXNativeTarget "PettyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				72572B84225355E50049A238 /* Debug */,
-				72572B85225355E50049A238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
