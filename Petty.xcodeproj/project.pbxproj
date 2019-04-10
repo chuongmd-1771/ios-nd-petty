@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72099F08225D8626001EE8AD /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72099F07225D8626001EE8AD /* Storyboards.swift */; };
 		72572B59225355E30049A238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72572B58225355E30049A238 /* AppDelegate.swift */; };
 		72572B5E225355E30049A238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5C225355E30049A238 /* Main.storyboard */; };
 		72572B60225355E50049A238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5F225355E50049A238 /* Assets.xcassets */; };
@@ -17,12 +18,11 @@
 		729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* UIColor+.swift */; };
 		729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512D2255FF3700907BF8 /* UIFont+.swift */; };
 		729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51302256F4C600907BF8 /* HomeViewController.swift */; };
-		729F51342256FF7900907BF8 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51332256FF7900907BF8 /* PetDetailViewController.swift */; };
-		729F514022574AB000907BF8 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F513F22574AB000907BF8 /* UIView+.swift */; };
-		729F514222574BB000907BF8 /* CustomPetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F514122574BB000907BF8 /* CustomPetDetailView.swift */; };
+		72B3AC89225D976F000DED2E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F513F22574AB000907BF8 /* UIView+.swift */; };
+		72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */; };
+		72B3AC9C225DD1D3000DED2E /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BB9225C7DAF0027DAC2 /* Constant.swift */; };
-		72EA1BBC225C7F5D0027DAC2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */; };
 		72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		1279A104E1444881ED6499B6 /* Pods_Petty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CBC12FEDC7F37A3B8C581C /* Pods-Petty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.release.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.release.xcconfig"; sourceTree = "<group>"; };
+		72099F07225D8626001EE8AD /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		72572B55225355E30049A238 /* Petty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72572B58225355E30049A238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72572B5D225355E30049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,12 +43,11 @@
 		729F512B2255DB7900907BF8 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		729F512D2255FF3700907BF8 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		729F51302256F4C600907BF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		729F51332256FF7900907BF8 /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
 		729F513F22574AB000907BF8 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
-		729F514122574BB000907BF8 /* CustomPetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPetDetailView.swift; sourceTree = "<group>"; };
+		72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController.xib; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72EA1BB9225C7DAF0027DAC2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthorizable.swift; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.debug.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +146,7 @@
 		729F51182255967C00907BF8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				72B3AC98225DD1BA000DED2E /* User Detail */,
 				72EA1BBD225C7FC80027DAC2 /* Storyboard */,
 				729F51282255DA0200907BF8 /* Common */,
 				729F512F2256F4A500907BF8 /* Home */,
@@ -193,13 +194,13 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		729F51322256FC2400907BF8 /* Pet Detail */ = {
+		72B3AC98225DD1BA000DED2E /* User Detail */ = {
 			isa = PBXGroup;
 			children = (
-				729F51332256FF7900907BF8 /* PetDetailViewController.swift */,
-				729F514122574BB000907BF8 /* CustomPetDetailView.swift */,
+				72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */,
+				72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */,
 			);
-			path = "Pet Detail";
+			path = "User Detail";
 			sourceTree = "<group>";
 		};
 		72BE7F17225377E800D5B3AC /* Helps */ = {
@@ -213,7 +214,7 @@
 		72EA1BBD225C7FC80027DAC2 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				72EA1BBB225C7F5D0027DAC2 /* Storyboards.swift */,
+				72099F07225D8626001EE8AD /* Storyboards.swift */,
 				72572B61225355E50049A238 /* LaunchScreen.storyboard */,
 				72572B5C225355E30049A238 /* Main.storyboard */,
 			);
@@ -301,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72572B63225355E50049A238 /* LaunchScreen.storyboard in Resources */,
+				72B3AC9C225DD1D3000DED2E /* UserDetailViewController.xib in Resources */,
 				72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */,
 				72572B60225355E50049A238 /* Assets.xcassets in Resources */,
 				72572B5E225355E30049A238 /* Main.storyboard in Resources */,
@@ -390,12 +392,14 @@
 			files = (
 				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
 				729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */,
+				72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */,
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
-				72EA1BBC225C7F5D0027DAC2 /* Storyboards.swift in Sources */,
 				72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */,
+				72099F08225D8626001EE8AD /* Storyboards.swift in Sources */,
 				72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
+				72B3AC89225D976F000DED2E /* UIView+.swift in Sources */,
 				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
 			);

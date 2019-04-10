@@ -8,6 +8,6 @@
 
 import UIKit
 
-enum Storyboard {
-    static let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+enum Storyboards {
+    static let main = UIStoryboard(name: "Main", bundle: nil)
 }

@@ -9,6 +9,4 @@
 import UIKit
 
 enum Constant {
-    static let loginViewController = "LoginViewController"
-    static let homeViewController = "HomeViewController"
 }

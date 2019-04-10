@@ -213,9 +213,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNq-M6-O1s">
                                                 <rect key="frame" x="0.0" y="6" width="94" height="48"/>
                                                 <state key="normal" image="baseline_home_black_48dp"/>
-                                                <connections>
-                                                    <segue destination="cle-gW-fKA" kind="show" identifier="gotoPetDetail" id="kTi-fY-6oi"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxg-C3-qc3">
                                                 <rect key="frame" x="94" y="6" width="93.5" height="48"/>
@@ -264,10 +261,8 @@
         <image name="Logo" width="89" height="79"/>
         <image name="baseline_add_circle_black_48dp" width="48" height="48"/>
         <image name="baseline_home_black_48dp" width="48" height="48"/>
-        <image name="baseline_location_on_black_48dp" width="48" height="48"/>
         <image name="baseline_notifications_black_48dp" width="48" height="48"/>
         <image name="baseline_person_black_48dp" width="48" height="48"/>
-        <image name="heart" width="256" height="256"/>
         <image name="key" width="256" height="256"/>
         <image name="user" width="256" height="256"/>
     </resources>
