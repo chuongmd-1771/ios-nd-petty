@@ -20,10 +20,17 @@
 		729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51302256F4C600907BF8 /* HomeViewController.swift */; };
 		72B3AC89225D976F000DED2E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F513F22574AB000907BF8 /* UIView+.swift */; };
 		72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */; };
-		72B3AC9C225DD1D3000DED2E /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */; };
+		72B3ACB0225F0FE1000DED2E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 72B3ACAF225F0FE1000DED2E /* .swiftlint.yml */; };
+		72B3ACB7225F3D7E000DED2E /* MenuBarButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACB5225F3D7E000DED2E /* MenuBarButtonCell.swift */; };
+		72B3ACB8225F3D7E000DED2E /* MenuBarButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */; };
+		72B3ACBE225F4643000DED2E /* MyPhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */; };
+		72B3ACC0225F46AE000DED2E /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACBF225F46AE000DED2E /* FollowingTableViewController.swift */; };
+		72B3ACC2225F48FA000DED2E /* FollowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACC1225F48FA000DED2E /* FollowerTableViewController.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BB9225C7DAF0027DAC2 /* Constant.swift */; };
 		72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */; };
+		72F6403522602EF9005C14BC /* LikedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F6403422602EF9005C14BC /* LikedCollectionViewController.swift */; };
+		72F640382260365D005C14BC /* CustomAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F640372260365D005C14BC /* CustomAvatar.swift */; };
 		AFD908918A13D7F661F39090 /* Pods_Petty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1279A104E1444881ED6499B6 /* Pods_Petty.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,10 +52,17 @@
 		729F51302256F4C600907BF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		729F513F22574AB000907BF8 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
-		72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController.xib; sourceTree = "<group>"; };
+		72B3ACAF225F0FE1000DED2E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		72B3ACB5225F3D7E000DED2E /* MenuBarButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarButtonCell.swift; sourceTree = "<group>"; };
+		72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBarButtonCell.xib; sourceTree = "<group>"; };
+		72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		72B3ACBF225F46AE000DED2E /* FollowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
+		72B3ACC1225F48FA000DED2E /* FollowerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewController.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72EA1BB9225C7DAF0027DAC2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthorizable.swift; sourceTree = "<group>"; };
+		72F6403422602EF9005C14BC /* LikedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedCollectionViewController.swift; sourceTree = "<group>"; };
+		72F640372260365D005C14BC /* CustomAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAvatar.swift; sourceTree = "<group>"; };
 		B670B54A583FF6B9BAA43B50 /* Pods_PettyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7437361DF851619D55DCF63 /* Pods-Petty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petty.debug.xcconfig"; path = "Target Support Files/Pods-Petty/Pods-Petty.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB0A3F7138E76F858A273C7 /* Pods_PettyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PettyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +109,7 @@
 				729F5110225595FE00907BF8 /* Application */,
 				72BE7F17225377E800D5B3AC /* Helps */,
 				72572B5F225355E50049A238 /* Assets.xcassets */,
+				72B3ACAF225F0FE1000DED2E /* .swiftlint.yml */,
 				72572B64225355E50049A238 /* Info.plist */,
 			);
 			path = Petty;
@@ -146,6 +161,10 @@
 		729F51182255967C00907BF8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				72B3ACBC225F3F12000DED2E /* My Photos */,
+				72B3ACBB225F3F05000DED2E /* Liked */,
+				72B3ACBA225F3EFE000DED2E /* Following */,
+				72B3ACB9225F3EF1000DED2E /* Follower */,
 				72B3AC98225DD1BA000DED2E /* User Detail */,
 				72EA1BBD225C7FC80027DAC2 /* Storyboard */,
 				729F51282255DA0200907BF8 /* Common */,
@@ -165,6 +184,7 @@
 		729F511A2255969100907BF8 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				72F6403622603643005C14BC /* Avatar */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -198,9 +218,42 @@
 			isa = PBXGroup;
 			children = (
 				72B3AC99225DD1D3000DED2E /* UserDetailViewController.swift */,
-				72B3AC9A225DD1D3000DED2E /* UserDetailViewController.xib */,
+				72B3ACB5225F3D7E000DED2E /* MenuBarButtonCell.swift */,
+				72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */,
 			);
 			path = "User Detail";
+			sourceTree = "<group>";
+		};
+		72B3ACB9225F3EF1000DED2E /* Follower */ = {
+			isa = PBXGroup;
+			children = (
+				72B3ACC1225F48FA000DED2E /* FollowerTableViewController.swift */,
+			);
+			path = Follower;
+			sourceTree = "<group>";
+		};
+		72B3ACBA225F3EFE000DED2E /* Following */ = {
+			isa = PBXGroup;
+			children = (
+				72B3ACBF225F46AE000DED2E /* FollowingTableViewController.swift */,
+			);
+			path = Following;
+			sourceTree = "<group>";
+		};
+		72B3ACBB225F3F05000DED2E /* Liked */ = {
+			isa = PBXGroup;
+			children = (
+				72F6403422602EF9005C14BC /* LikedCollectionViewController.swift */,
+			);
+			path = Liked;
+			sourceTree = "<group>";
+		};
+		72B3ACBC225F3F12000DED2E /* My Photos */ = {
+			isa = PBXGroup;
+			children = (
+				72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */,
+			);
+			path = "My Photos";
 			sourceTree = "<group>";
 		};
 		72BE7F17225377E800D5B3AC /* Helps */ = {
@@ -219,6 +272,14 @@
 				72572B5C225355E30049A238 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		72F6403622603643005C14BC /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				72F640372260365D005C14BC /* CustomAvatar.swift */,
+			);
+			path = Avatar;
 			sourceTree = "<group>";
 		};
 		9C09DC0DB3BBCD03512A5F62 /* Frameworks */ = {
@@ -301,8 +362,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B3ACB8225F3D7E000DED2E /* MenuBarButtonCell.xib in Resources */,
+				72B3ACB0225F0FE1000DED2E /* .swiftlint.yml in Resources */,
 				72572B63225355E50049A238 /* LaunchScreen.storyboard in Resources */,
-				72B3AC9C225DD1D3000DED2E /* UserDetailViewController.xib in Resources */,
 				72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */,
 				72572B60225355E50049A238 /* Assets.xcassets in Resources */,
 				72572B5E225355E30049A238 /* Main.storyboard in Resources */,
@@ -342,6 +404,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -353,6 +416,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -393,15 +457,21 @@
 				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
 				729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */,
 				72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */,
+				72B3ACC2225F48FA000DED2E /* FollowerTableViewController.swift in Sources */,
+				72B3ACBE225F4643000DED2E /* MyPhotosCollectionViewController.swift in Sources */,
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
 				72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */,
+				72B3ACB7225F3D7E000DED2E /* MenuBarButtonCell.swift in Sources */,
+				72B3ACC0225F46AE000DED2E /* FollowingTableViewController.swift in Sources */,
 				72099F08225D8626001EE8AD /* Storyboards.swift in Sources */,
 				72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */,
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
+				72F6403522602EF9005C14BC /* LikedCollectionViewController.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
 				72B3AC89225D976F000DED2E /* UIView+.swift in Sources */,
 				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
+				72F640382260365D005C14BC /* CustomAvatar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

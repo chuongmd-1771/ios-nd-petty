@@ -12,6 +12,7 @@ pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'SVProgressHUD'
 pod 'Reusable'
+pod 'XLPagerTabStrip'
 
 end
   post_install do |installer|

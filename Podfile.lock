@@ -75,6 +75,7 @@ PODS:
   - Reusable/Storyboard (4.0.5)
   - Reusable/View (4.0.5)
   - SVProgressHUD (2.2.5)
+  - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - Firebase
@@ -83,6 +84,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Reusable
   - SVProgressHUD
+  - XLPagerTabStrip
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -100,6 +102,7 @@ SPEC REPOS:
     - nanopb
     - Reusable
     - SVProgressHUD
+    - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
@@ -116,7 +119,8 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: b5bb3c93a2df6ffd53fb036bd97a2f581113deb9
+PODFILE CHECKSUM: 916c002b759d4b2d0497c89fccd832fb014552e1
 
 COCOAPODS: 1.6.0.beta.2
