@@ -9,9 +9,9 @@ target 'Petty' do
 pod 'Firebase'
 pod 'Firebase/Auth'
 pod 'Firebase/Core'
-pod 'Firebase/Firestore'
+pod 'Firebase/Database'
 pod 'SVProgressHUD'
-pod 'ChameleonFramework'
+pod 'Reusable'
 
 end
   post_install do |installer|
