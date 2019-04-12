@@ -25,11 +25,8 @@ extension UIView {
         layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
 
-    func roundCorner(color: UIColor,
-                     cornerRadius: CGFloat,
-                     shadowRadius: CGFloat,
-                     clipsToBounds: Bool) {
-        self.clipsToBounds = true
+    func roundCorner(color: UIColor, cornerRadius: CGFloat, shadowRadius: CGFloat) {
+        clipsToBounds = true
         backgroundColor = color
         layer.cornerRadius = cornerRadius
         layer.shadowRadius = shadowRadius
@@ -81,7 +78,7 @@ extension UIView {
 }
 
 extension UIView {
-    @IBInspectable var cornerRadiusV: CGFloat {
+    @IBInspectable var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
@@ -91,7 +88,7 @@ extension UIView {
         }
     }
     
-    @IBInspectable var borderWidthV: CGFloat {
+    @IBInspectable var borderWidth: CGFloat {
         get {
             return layer.borderWidth
         }
@@ -100,7 +97,7 @@ extension UIView {
         }
     }
     
-    @IBInspectable var borderColorV: UIColor? {
+    @IBInspectable var borderColor: UIColor? {
         get {
             return UIColor(cgColor: layer.borderColor!)
         }

@@ -23,7 +23,6 @@
 		72B3ACB0225F0FE1000DED2E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 72B3ACAF225F0FE1000DED2E /* .swiftlint.yml */; };
 		72B3ACB7225F3D7E000DED2E /* MenuBarButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACB5225F3D7E000DED2E /* MenuBarButtonCell.swift */; };
 		72B3ACB8225F3D7E000DED2E /* MenuBarButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */; };
-		72B3ACBE225F4643000DED2E /* MyPhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */; };
 		72B3ACC0225F46AE000DED2E /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACBF225F46AE000DED2E /* FollowingTableViewController.swift */; };
 		72B3ACC2225F48FA000DED2E /* FollowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3ACC1225F48FA000DED2E /* FollowerTableViewController.swift */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
@@ -55,7 +54,6 @@
 		72B3ACAF225F0FE1000DED2E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		72B3ACB5225F3D7E000DED2E /* MenuBarButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarButtonCell.swift; sourceTree = "<group>"; };
 		72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBarButtonCell.xib; sourceTree = "<group>"; };
-		72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		72B3ACBF225F46AE000DED2E /* FollowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
 		72B3ACC1225F48FA000DED2E /* FollowerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewController.swift; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -251,7 +249,6 @@
 		72B3ACBC225F3F12000DED2E /* My Photos */ = {
 			isa = PBXGroup;
 			children = (
-				72B3ACBD225F4643000DED2E /* MyPhotosCollectionViewController.swift */,
 			);
 			path = "My Photos";
 			sourceTree = "<group>";
@@ -458,7 +455,6 @@
 				729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */,
 				72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */,
 				72B3ACC2225F48FA000DED2E /* FollowerTableViewController.swift in Sources */,
-				72B3ACBE225F4643000DED2E /* MyPhotosCollectionViewController.swift in Sources */,
 				729F512E2255FF3700907BF8 /* UIFont+.swift in Sources */,
 				72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */,
 				72B3ACB7225F3D7E000DED2E /* MenuBarButtonCell.swift in Sources */,

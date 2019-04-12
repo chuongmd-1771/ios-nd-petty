@@ -11,8 +11,8 @@ import Reusable
 import XLPagerTabStrip
 
 final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<MenuBarButtonCell> {
-    @IBOutlet weak var topView: UIView!
-    @IBOutlet weak var avatarImage: UIImageView!
+    @IBOutlet private weak var topView: UIView!
+    @IBOutlet private weak var avatarImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

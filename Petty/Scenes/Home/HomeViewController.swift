@@ -10,7 +10,6 @@ import UIKit
 import Reusable
 
 final class HomeViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
