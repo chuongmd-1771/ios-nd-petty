@@ -37,12 +37,17 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, StoryboardBased {
     }
     
     func checkIfUserSigned() {
-        guard let windows = window else { return }
+        guard window != nil else { return }
         let navigateToLogin = LoginViewController.instantiate()
         let navigateToHome = HomeViewController.instantiate()
         Auth.auth().addStateDidChangeListener { [weak self] (_, user) in
-            guard self != nil else { return }
-            windows.rootViewController = user != nil ? navigateToHome : navigateToLogin
+            guard let self = self else { return }
+            if user != nil {
+                let navigationController = UINavigationController(rootViewController: navigateToHome)
+                self.window?.rootViewController = navigationController
+            } else {
+                self.window?.rootViewController = navigateToLogin
+            }
         }
         window?.makeKeyAndVisible()
     }

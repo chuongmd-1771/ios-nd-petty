@@ -230,6 +230,9 @@
                                             <constraint firstAttribute="height" constant="35" id="eeO-1l-tC7"/>
                                         </constraints>
                                         <state key="normal" image="settings"/>
+                                        <connections>
+                                            <action selector="handleGoToSetting:" destination="GRA-kE-RgA" eventType="touchUpInside" id="2t3-lg-F3e"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG3-cG-NnF">
                                         <rect key="frame" x="300" y="10" width="35" height="35"/>
@@ -345,6 +348,38 @@
             </objects>
             <point key="canvasLocation" x="2034" y="-696"/>
         </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="S5B-ee-Cgm">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="5Ax-aC-6rg" customClass="SettingViewController" customModule="Petty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0sx-dy-mbM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEW-O2-PLR" customClass="CustomButton" customModule="Petty" customModuleProvider="target">
+                                <rect key="frame" x="94" y="318.5" width="187.5" height="30"/>
+                                <state key="normal" title="LOGOUT"/>
+                                <connections>
+                                    <action selector="handleLogout:" destination="5Ax-aC-6rg" eventType="touchUpInside" id="MH4-HO-XJI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xEW-O2-PLR" firstAttribute="width" secondItem="0sx-dy-mbM" secondAttribute="width" multiplier="1:2" id="QNF-Xr-5zH"/>
+                            <constraint firstItem="xEW-O2-PLR" firstAttribute="centerY" secondItem="0sx-dy-mbM" secondAttribute="centerY" id="Wfg-Bu-6NW"/>
+                            <constraint firstItem="xEW-O2-PLR" firstAttribute="centerX" secondItem="0sx-dy-mbM" secondAttribute="centerX" id="jog-xb-UzE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RJS-Fw-kK2"/>
+                    </view>
+                    <connections>
+                        <outlet property="logoutButton" destination="xEW-O2-PLR" id="Kv2-rM-wAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7SL-U1-66H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="-697"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="Dup-MV-IfI">
             <objects>
@@ -353,7 +388,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LMD-p6-egH">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LMD-p6-egH">
                                 <rect key="frame" x="0.0" y="20" width="375" height="587"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -361,11 +396,15 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WzY-7s-ra3" id="fYM-A3-SAV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vvK-hI-L2B" id="xSn-vp-GDW"/>
+                                    <outlet property="delegate" destination="vvK-hI-L2B" id="qcx-b9-FCi"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xf2-Oa-kPc" userLabel="tabbar">
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
@@ -476,6 +515,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FZW-M7-FPE"/>
                     </view>
+                    <connections>
+                        <outlet property="petImageTableView" destination="LMD-p6-egH" id="NFF-aF-ba7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wQ-ml-jeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

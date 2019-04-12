@@ -16,6 +16,7 @@ final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<M
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        handleDismissToHome()
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -32,6 +33,18 @@ final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<M
         })
     }
     
+    private func handleDismissToHome() {
+        let down = UISwipeGestureRecognizer(target: self,
+                                            action: #selector(swipeDown(gesture:)))
+        down.direction = .down
+        topView.addGestureRecognizer(down)
+    }
+    
+    @objc
+    private func swipeDown(gesture: UISwipeGestureRecognizer) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let myPhotosViewController = MyPhotosViewController(itemInfo: IndicatorInfo(image: #imageLiteral(resourceName: "pet")))
         let followerViewController = FollowerViewController(itemInfo: IndicatorInfo(image: #imageLiteral(resourceName: "following")))
@@ -42,6 +55,10 @@ final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<M
     
     override func configure(cell: MenuBarButtonCell, for indicatorInfo: IndicatorInfo) {
         cell.iconImage.image = indicatorInfo.image
+    }
+    @IBAction func handleGoToSetting(_ sender: Any) {
+        let vc = SettingViewController.instantiate()
+        present(vc, animated: true)
     }
 }
 
