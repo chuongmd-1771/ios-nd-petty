@@ -9,4 +9,8 @@
 import UIKit
 
 enum Constant {
+    static let buttonBarItemNibName = "MenuBarButtonCell"
+    static let menuBarCellNibName = "MenuBarButtonCell"
+    static let myPhotos = "MyPhotos"
+    static let itemInfoTitle = "View"
 }
