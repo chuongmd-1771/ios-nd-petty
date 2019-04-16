@@ -41,7 +41,8 @@ final class LoginViewController: UIViewController {
             } else {
                 SVProgressHUD.dismiss()
                 let vc = HomeViewController.instantiate()
-                self.present(vc, animated: true)
+//                present(vc, animated: true)
+                self.navigationController?.pushViewController(vc, animated: true)
             }
         }
     }

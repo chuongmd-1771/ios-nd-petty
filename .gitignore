@@ -24,6 +24,7 @@ xcuserdata/
 *.DS_Store
 Podfile
 Podfile.lock
+Petty/.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
