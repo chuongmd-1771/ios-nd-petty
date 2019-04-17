@@ -12,7 +12,6 @@
 		72572B5E225355E30049A238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5C225355E30049A238 /* Main.storyboard */; };
 		72572B60225355E50049A238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72572B5F225355E50049A238 /* Assets.xcassets */; };
 		72572B63225355E50049A238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72572B61225355E50049A238 /* LaunchScreen.storyboard */; };
-		729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F510E2254B02000907BF8 /* LoginViewController.swift */; };
 		729F51172255966D00907BF8 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51162255966D00907BF8 /* UIViewController+.swift */; };
 		729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F51292255DA1500907BF8 /* CustomButton.swift */; };
 		729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F512B2255DB7900907BF8 /* UIColor+.swift */; };
@@ -25,6 +24,7 @@
 		72B3ACB8225F3D7E000DED2E /* MenuBarButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */; };
 		72BE7F19225377F600D5B3AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */; };
 		72D1E0A722657CC800FA6FDC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1E0A622657CC800FA6FDC /* SettingViewController.swift */; };
+		72D1E0A92265BC4300FA6FDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1E0A82265BC4300FA6FDC /* LoginViewController.swift */; };
 		72EA1BBA225C7DAF0027DAC2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BB9225C7DAF0027DAC2 /* Constant.swift */; };
 		72EA1BC1225C891E0027DAC2 /* FirebaseAuthorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */; };
 		72F64041226094EC005C14BC /* PetImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F64040226094EC005C14BC /* PetImages.swift */; };
@@ -43,7 +43,6 @@
 		72572B5F225355E50049A238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72572B62225355E50049A238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72572B64225355E50049A238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		729F510E2254B02000907BF8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		729F51162255966D00907BF8 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		729F51292255DA1500907BF8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		729F512B2255DB7900907BF8 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		72B3ACB6225F3D7E000DED2E /* MenuBarButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBarButtonCell.xib; sourceTree = "<group>"; };
 		72BE7F18225377F600D5B3AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72D1E0A622657CC800FA6FDC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		72D1E0A82265BC4300FA6FDC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		72EA1BB9225C7DAF0027DAC2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		72EA1BC0225C891E0027DAC2 /* FirebaseAuthorizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthorizable.swift; sourceTree = "<group>"; };
 		72F64040226094EC005C14BC /* PetImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImages.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		729F510D2254AF9B00907BF8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				729F510E2254B02000907BF8 /* LoginViewController.swift */,
+				72D1E0A82265BC4300FA6FDC /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -428,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729F510F2254B02000907BF8 /* LoginViewController.swift in Sources */,
 				729F512C2255DB7900907BF8 /* UIColor+.swift in Sources */,
 				72B3AC9B225DD1D3000DED2E /* UserDetailViewController.swift in Sources */,
 				72F64041226094EC005C14BC /* PetImages.swift in Sources */,
@@ -441,6 +440,7 @@
 				729F51172255966D00907BF8 /* UIViewController+.swift in Sources */,
 				72572B59225355E30049A238 /* AppDelegate.swift in Sources */,
 				72B3AC89225D976F000DED2E /* UIView+.swift in Sources */,
+				72D1E0A92265BC4300FA6FDC /* LoginViewController.swift in Sources */,
 				72D1E0A722657CC800FA6FDC /* SettingViewController.swift in Sources */,
 				729F51312256F4C600907BF8 /* HomeViewController.swift in Sources */,
 				729F512A2255DA1500907BF8 /* CustomButton.swift in Sources */,
