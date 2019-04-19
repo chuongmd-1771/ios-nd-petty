@@ -58,6 +58,14 @@ extension UIView {
         
         layer.addSublayer(border)
     }
+    
+    func addGradient(color: [CGColor], location: [CGFloat]) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = color
+        gradientLayer.locations = location as [NSNumber]
+        layer.addSublayer(gradientLayer)
+        gradientLayer.frame = self.bounds
+    }
 }
 
 extension UIView {
@@ -104,5 +112,12 @@ extension UIView {
         set {
             layer.borderColor = newValue?.cgColor
         }
+    }
+}
+
+extension UIView {
+    @objc
+    func remove() {
+        removeFromSuperview()
     }
 }

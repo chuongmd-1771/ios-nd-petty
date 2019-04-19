@@ -12,7 +12,7 @@ import Firebase
 
 final class SettingViewController: UIViewController {
     @IBOutlet private weak var logoutButton: CustomButton!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         handleDismissToHome()

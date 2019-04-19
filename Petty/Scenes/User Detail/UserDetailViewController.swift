@@ -15,6 +15,9 @@ final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<M
     @IBOutlet private weak var avatarImage: UIImageView!
     
     override func viewDidLoad() {
+        settings.style.selectedBarBackgroundColor = UIColor.black
+        settings.style.selectedBarHeight = 2
+
         super.viewDidLoad()
         handleDismissToHome()
     }
@@ -56,9 +59,8 @@ final class UserDetailViewController: BaseButtonBarPagerTabStripViewController<M
     override func configure(cell: MenuBarButtonCell, for indicatorInfo: IndicatorInfo) {
         cell.iconImage.image = indicatorInfo.image
     }
-    @IBAction func handleGoToSetting(_ sender: Any) {
-        let vc = SettingViewController.instantiate()
-        present(vc, animated: true)
+    @IBAction private func handleGoToSetting(_ sender: Any) {
+        presentSettingController()
     }
 }
 

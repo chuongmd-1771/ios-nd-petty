@@ -9,5 +9,9 @@
 import UIKit
 
 extension UIColor {
-    static let frenchBlue = UIColor(red: 0.0 / 255.0, green: 109.0 / 255.0, blue: 188.0 / 255.0, alpha: 1.0)
+    convenience init(r: CGFloat, g: CGFloat, b: CGFloat) {
+        self.init(red: r / 255, green: g / 255, blue: b / 255, alpha: 1.0)
+    }
+    
+    static let frenchBlue = UIColor(r: 0, g: 109, b: 188)
 }

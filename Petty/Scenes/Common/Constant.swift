@@ -13,4 +13,6 @@ enum Constant {
     static let menuBarCellNibName = "MenuBarButtonCell"
     static let myPhotos = "MyPhotos"
     static let itemInfoTitle = "View"
+    static let posts = "posts"
+    static let userProfileImage = "profile_images"
 }
